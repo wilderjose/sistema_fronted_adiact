@@ -7,6 +7,7 @@ function ProtectedRoute({ children, rolesPermitidos = [] }) {
 
     // Si no hay token, redirigir al login
     // Si est aes una ruta protegida mia
+    //eres un cabron bro
     if (!token) {
         return <Navigate to="/login" />;
     }
